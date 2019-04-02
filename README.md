@@ -21,14 +21,16 @@ Clicky Game app with Java Spring Boot, MongoDB and React JS
 
 ## MongoDB
 * Database name: `Clickygame`
-* Collections: `image, user`
+* Collections: 
+  * `image` 
+  * `user`
 
 ## Api Endpoints
 
 | Endpoint  | Status | Request Payload | Type | Verb | Response 
 | ------------- | ------------- | ------------- |------------- | ------------- | ------------- |
 | /create  | 201 | $Ref: `Request Payload`: Create  | REST | POST | String UserId
-| /login | 200 | $Ref: `Request Payload`: Login | REST | POST | $Ref: `Response Payload`: Login
+| /login | 200 | $Ref: `Request Payload`: Login Request | REST | POST | $Ref: `Response Payload`: Login
 | /api/user/topscorers/{number} | 200  |  | REST | GET | $Ref: `Response Payload`: User[]
 | /api/user/{userId}/topscore/{number} | 200  |  | REST | PUT | $Ref: `Response Payload`: User
 | /api/user/{userId}/topscore/{number} | 200  |  | REST | PUT | $Ref: `Response Payload`: User
@@ -36,7 +38,23 @@ Clicky Game app with Java Spring Boot, MongoDB and React JS
 | /api/image | 200  |  | REST | GET | $Ref: `Response Payload`: Image
 
 
-## Response Payload
+## Response Payload 
+`Content type: application/json`
+
+### Create
+
+| Name | Type | Description
+| ------------- | ------------- | ------------- |
+| Name  | String | Required name of the user |
+| Email  | String  | Required email of the user |
+| Password  | String  | Required password of the user |
+
+### Login Request
+
+| Name | Type | Description
+| ------------- | ------------- | ------------- |
+| Email  | String | Required email of the user used when the user was created |
+| Password  | String  | Required password of the user used when the user was created |
 
 ### Login
   
