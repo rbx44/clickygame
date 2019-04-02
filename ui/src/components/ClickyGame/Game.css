@@ -1,0 +1,82 @@
+.wrapper {
+  position:relative;
+  margin:0 auto;
+  overflow:hidden;
+  padding:5px;
+  height:50px;
+}
+
+.ul.list-inline li {
+  display: inline;
+  padding: 5px;
+}
+
+.scroller {
+  text-align:center;
+  cursor:pointer;
+  display:none;
+  padding:7px;
+  padding-top:11px;
+  white-space:no-wrap;
+  vertical-align:middle;
+  background-color:#fff;
+}
+
+.scroller-right{
+  float:right;
+}
+
+.scroller-left {
+  float:left;
+}
+
+.allCards {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  text-align: center;
+}
+    
+.allCards img {
+  margin: 1px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  max-height: 200px;
+  max-width: 200px;
+  background-color: white;
+}
+
+.mainCardContainer {
+  margin-bottom: 50px;
+  padding: 0; 
+}
+    
+.gameMessage {
+  text-align: center;
+  max-width: 100%;
+  align-content: center
+}
+    
+.gameMessage p {
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 0px;
+}
+    
+.gameScores {
+  text-align: center;
+  max-width: 100%;
+  align-content: center;
+  margin-bottom: 10px;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color:#008ad3;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 25px;
+}

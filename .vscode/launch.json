@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReactApplication",
+            "request": "launch",
+            "mainClass": "com.clickygame.app.controllers.ReactApplication",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReactApplication",
+            "request": "launch",
+            "mainClass": "com.clickygame.app.ReactApplication",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReactApplication",
+            "request": "launch",
+            "mainClass": "com.clickygame.app.ReactApplication",
+            "projectName": "react"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReactApplication",
+            "request": "launch",
+            "mainClass": "com.clickygame.app.ReactApplication"
+        }
+    ]
+}
